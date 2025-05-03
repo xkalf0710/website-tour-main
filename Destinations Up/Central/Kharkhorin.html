@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/updated css/accommodaion.css">
+    <link rel="stylesheet" href="/updated css/up_global.css">
+    <link rel="stylesheet" href="/updated css/slider.css">
+    <link rel="stylesheet" href="/website-tour-main/styleguide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="/website-tour-main/img/Accom/compo/logo.png" alt=""></div>
+    <div class="menu" id="menu">
+      <a href="#about">About us</a>
+      <form class="search-bar" onsubmit="performSearch(event)">
+        <input type="text" placeholder=" Search" id="searchInput" required>
+      </form>
+      <a href=""><img src="/website-tour-main/img/Accom/compo/smallbtn.png" alt=""></a>
+      <a href=""><img src="/website-tour-main/img/Accom/compo/lang.png" alt=""></a>
+    </div>
+    </nav>
+    <div class="div">
+        <div class="s-menu">
+            <div>Home</div>
+            <i class="fa-solid fa-chevron-left"></i>
+            <div>Destination</div>
+            <i class="fa-solid fa-chevron-left"></i>
+            <div class="selected">Kharkhorin</div>
+        </div>
+        <script>
+            function performSearch(event) {
+            event.preventDefault(); // Prevent the form from reloading the page
+            const query = document.getElementById('searchInput').value;
+            if (query) {
+                alert(`Searching for: ${query}`);
+            }
+            }
+        </script>
+        <div class="overview">
+            <h1>Kharkhorin</h1>
+            <h2>Location</h2>
+            <div class="flex">
+                <div class="overview-text">
+                    <div>
+                        <p>Kharkhorin, once the ancient capital of the Mongol Empire under Genghis Khan, is a place steeped in history. Located in the Orkhon Valley, which is a UNESCO World Heritage Site, Kharkhorin was founded in the early 13th century and became the political and cultural heart of the Mongol Empire. Today, the small town of Kharkhorin stands where the once-great city did, and though much of the original capital has been lost to time, the area remains a vital link to Mongolia’s past. Visitors come here to explore the ruins, visit the Erdene Zuu Monastery, and imagine the grandeur of the Mongol Empire in its heyday.</p>
+                        <div>
+                            <a href="" class="btn-get"><img src="/website-tour-main/img/Accom/compo/Vector.png" alt="">&nbsp;Get Direction</a>
+                        </div>
+                    </div>
+                        <div class="carousel">
+                            <div class="list">
+                            
+                                <div class="item" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-1.jpg);">
+                                </div>
+                    
+                                <div class="item" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-2.jpg);">
+                                </div>
+                    
+                                <div class="item" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharBalgas/KharBalgas-1.jpg);">
+                                </div>
+                    
+                                <div class="item" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharkhorinSum/KharkhorinSum-2.jpg);">
+                                </div>
+                    
+                                <div class="item" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharkhorinSum/KharkhorinSum-5.jpg);">
+                                </div>
+                            </div>
+                    
+                            <!--next prev button-->
+                            <div class="arrows">
+                                <button class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                                <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
+                            </div>
+                    
+                    
+                            <!-- time running -->
+                            <div class="timeRunning"></div>
+                        </div>
+                </div>
+                <div class="overview-video">
+                    <div class="short-container">
+                        <!-- Replace the video ID with the ID of the YouTube Short -->
+                        <iframe 
+                        src="https://www.youtube.com/embed/VIDEO_ID?rel=0&modestbranding=1&autoplay=1&mute=1" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                        </iframe>
+                    </div>
+                    <!-- <div class="bnm">
+                        <p>BRAVE NEW MONGOLIA</p>
+                    </div> -->
+                </div>
+            </div>
+        <!-- </div>
+        <p class="plus">The landscapes here are breathtaking—rolling hills, open steppe, and peaceful rivers. There are plenty of hiking trails for those who want to explore the park on foot, and it’s a great place for horseback riding as well. If you’re interested in Mongolia’s rich nomadic culture, Khustai also offers the chance to stay in a ger camp, where you can experience traditional Mongolian life up close. You’ll be surrounded by stunning nature, with the opportunity to ride horses, enjoy traditional food, and even visit local nomadic families. Whether you’re here for the wildlife, the landscapes, or just to escape the city and breathe some fresh air, Khustai Nuruu National Park is the perfect place to connect with nature and learn more about Mongolia’s incredible wildlife and culture.</p>
+        <div>
+            <a href="" class="btn-get"><img src="/website-tour-main/img/Accom/compo/Vector.png" alt="">&nbsp;Get Direction</a>
+        </div> -->
+        <div class="comp">
+            <div class="comp-1">
+                <div class="comp-text">
+                    <div>
+                        <h1>Erdenezuu Monastery</h1>
+                        <p>At the heart of Kharkhorin lies the Erdene Zuu Monastery, one of Mongolia’s most important religious sites. Founded in 1585 by Abtai Sain Khan, Erdene Zuu is the oldest surviving Buddhist monastery in Mongolia and is surrounded by 108 stupas. The monastery was built using materials from the ruins of Kharkhorin, and it became a center for Buddhist learning and spirituality. Though many of its temples were destroyed during the communist purges of the 1930s, some parts of the monastery have survived, and today it is an active place of worship as well as a museum. Visitors can walk through the beautiful courtyards, visit the temples, and see relics of Mongolian Buddhism, including statues of Buddha, intricate thangkas (Buddhist paintings), and sacred scriptures. The stupas and temple walls are a stunning contrast to the vast steppe surrounding the monastery, and it’s easy to feel a deep sense of peace and history as you walk through the grounds. This is a must-visit for anyone interested in Mongolia’s spiritual history or the spread of Buddhism across Asia.</p>
+                        <a href="" class="btn-get"><img src="/website-tour-main/img/Accom/compo/Vector.png" alt="">&nbsp;Get Direction</a>
+                    </div>
+                </div>
+                <div class="slide-show">
+                    <div class="carousel-1">
+                
+                        <div class="list-1">
+                
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-1.jpg);">
+                            </div>
+                            
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-2.jpg);">
+                
+                            </div>
+
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-3.jpg);">
+                
+                            </div>
+                
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-4.jpg);">
+                
+                            </div>
+                
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-5.jpg);">
+                
+                            </div>
+                
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-6.jpg);">
+                            </div>
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-7.jpg);">
+                            </div>
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-8.jpg);">
+                            </div>
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-9.jpg);">
+                            </div>
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-10.jpg);">
+                            </div>
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-11.jpg);">
+                            </div>
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-12.jpg);">
+                            </div>
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-13.jpg);">
+                            </div>
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-14.jpg);">
+                            </div>
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-15.jpg);">
+                            </div>
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-16.jpg);">
+                            </div>
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-17.jpg);">
+                            </div>
+                            <div class="item-1" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/ErdenezuuMonastery/ErdenezuuKhiid-18.jpg);">
+                            </div>
+                
+                        </div>
+                
+                        <!--next prev button-->
+                        <div class="arrows-1">
+                            <button class="prev-1"><i class="fa-solid fa-chevron-left"></i></button>
+                            <button class="next-1"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                
+                
+                        <!-- time running -->
+                        <div class="timeRunning-1"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="comp-2">
+                <div class="comp-2-text">
+                    <div>
+                        <h1>Kharkhorin Sum</h1>
+                        <p>The modern town of Kharkhorin sits on the site of the ancient capital, but today it's a small and quiet place, with much of its heritage lying beneath the ground. The Kharkhorin Museum is one of the town’s highlights, showcasing artifacts that have been excavated from the ancient city, including ceramics, stone inscriptions, and tools from the days of Genghis Khan’s empire. The museum provides a fascinating glimpse into what life might have been like in the ancient capital. In Kharkhorin, you’ll also find local markets, ger camps, and small restaurants that cater to both locals and travelers. The town is a great base for exploring the surrounding historical sites and natural beauty of the Orkhon Valley.</p>
+                        <a href="" class="btn-get"><img src="/website-tour-main/img/Accom/compo/Vector.png" alt="">&nbsp;Get Direction</a>
+                    </div>
+                </div>
+                <div class="carousel-2" style="margin: auto;">
+            
+                    <div class="list-2">
+                
+                        <div class="item-2" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharkhorinSum/KharkhorinSum-1.jpg);">
+                        </div>
+                
+                        <div class="item-2" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharkhorinSum/KharkhorinSum-2.jpg);">
+                
+                        </div>
+                
+                        <div class="item-2" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharkhorinSum/KharkhorinSum-3.jpg);">
+                
+                        </div>
+                
+                        <div class="item-2" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharkhorinSum/KharkhorinSum-4.jpg);">
+                
+                        </div>
+                
+                        <div class="item-2" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharkhorinSum/KharkhorinSum-5.jpg);">
+                
+                        </div>
+                
+                    </div>
+                
+                    <!--next prev button-->
+                    <div class="arrows-2">
+                        <button class="prev-2"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="next-2"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                
+                
+                    <!-- time running -->
+                    <div class="timeRunning-2"></div>
+                </div>
+            </div>
+            <div class="comp-1">
+                <div class="comp-text">
+                    <div>
+                        <h1>Khar Balgas Ruins</h1>
+                        <p>Just outside of Kharkhorin are the Khar Balgas Ruins, the remnants of an ancient city that predates the Mongol Empire. Khar Balgas, which translates to "Black City", was the capital of the Uyghur Khaganate in the 8th to 9th centuries. The city was a major center of Uyghur culture, commerce, and religion before it was eventually abandoned. Although not much remains of Khar Balgas today, the earthworks and scattered ruins offer an intriguing look into the past. The site is a quiet and reflective place, surrounded by the wide-open steppe. It’s a spot for those interested in archaeology and early Mongolian history, offering a unique perspective on the different civilizations that have ruled the region over the centuries.</p>
+                        <a href="" class="btn-get"><img src="/website-tour-main/img/Accom/compo/Vector.png" alt="">&nbsp;Get Direction</a>
+                    </div>
+                </div>
+                <div class="slide-show">
+                    <div class="carousel-3">
+                
+                        <div class="list-3">
+                
+                            <div class="item-3" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharBalgas/KharBalgas-1.jpg);">
+                            </div>
+                            
+                            <div class="item-3" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharBalgas/KharBalgas-2.jpg);">
+                
+                            </div>
+
+                            <div class="item-3" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharBalgas/KharBalgas-3.jpg);">
+                
+                            </div>
+                
+                            <div class="item-3" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharBalgas/KharBalgas-1.jpg);">
+                
+                            </div>
+                
+                            <div class="item-3" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharBalgas/KharBalgas-2.jpg);">
+                
+                            </div>
+                
+                            <div class="item-3" style="background-image: url(/website-tour-main/img/Destinations/CentralMongolia/KharKhorin/KharBalgas/KharBalgas-3.jpg);">
+                
+                            </div>
+                
+                        </div>
+                
+                        <!--next prev button-->
+                        <div class="arrows-3">
+                            <button class="prev-3"><i class="fa-solid fa-chevron-left"></i></button>
+                            <button class="next-3"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                
+                
+                        <!-- time running -->
+                        <div class="timeRunning-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recom">
+            <h1>Recommended accommodations</h1>
+            <div class="recom-flex">
+                <a href="#" id="recom-1">Asa Land</a>
+                <a href="#" id="recom-2">Asa Land</a>
+                <a href="#" id="recom-3">Asa Land</a>
+            </div>
+        </div>
+        <div class="recom">
+            <h1>Brave New Mongolia Tours</h1>
+            <div class="recom-flex">
+                <div id="recomt-1">
+                    <div class="tour-det">
+                        <img src="/website-tour-main/img/Accom/compo/Mask group.png" alt="">
+                        <p>Northern Numinious Reindeers</p>
+                        <a href="#" class="btn-td">Tour Details</a>
+                    </div>
+                </div>
+                <div id="recomt-2">
+                    <div class="tour-det">
+                        <img src="/website-tour-main/img/Accom/compo/Mask group.png" alt="">
+                        <p>Northern Numinious Reindeers</p>
+                        <a href="#" class="btn-td">Tour Details</a>
+                    </div>
+                </div>
+                <div id="recomt-3">
+                    <div class="tour-det">
+                        <img src="/website-tour-main/img/Accom/compo/Mask group.png" alt="">
+                        <p>Northern Numinious Reindeers</p>
+                        <a href="#" class="btn-td">Tour Details</a>
+                    </div>
+                </div>
+                <div id="recomt-4">
+                    <div class="tour-det">
+                        <img src="/website-tour-main/img/Accom/compo/Mask group.png" alt="">
+                        <p>Northern Numinious Reindeers</p>
+                        <a href="#" class="btn-td">Tour Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="logo">
+            <img src="/website-tour-main/img/Accom/compo/logo-big.png" alt="">
+        </div>
+        <div class="contact">
+            <h1>Brave New Mongolia</h1>
+            <p>Good day to everybody who is intrested in our tours. We are a team of Mongolians that love nature and traveling</p>
+            <div class="social">
+                <img src="/website-tour-main/img/Accom/compo/social/Frame 48357.png" alt="">
+                <img src="/website-tour-main/img/Accom/compo/social/Frame 48358.png" alt="">
+                <img src="/website-tour-main/img/Accom/compo/social/Frame 48359.png" alt="">
+            </div>
+            <li>Phone: +976 8625-6868</li>
+            <li>Email: bnmtours@gmail.com</li>
+            <li>Address: 17-22, 7-r khoroo, Sukhbaatar District, Ulaanbaatar, Mongolia</li>
+        </div>
+        <div class="support">
+            <h1>Support</h1>
+            <li>About us</li>
+            <li>Package information</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="app">
+            <h1>Download our mobile app</h1>
+            <img src="/website-tour-main/img/Accom/compo/social/play.png" alt="">
+            <img src="/website-tour-main/img/Accom/compo/social/app.png" alt="">
+        </div>
+        <script>
+            function initCarousel(carouselSelector, listSelector, nextSelector, prevSelector, timeSelector) {
+                const carousel = document.querySelector(carouselSelector);
+                const list = carousel.querySelector(listSelector);
+                const nextBtn = carousel.querySelector(nextSelector);
+                const prevBtn = carousel.querySelector(prevSelector);
+                const runningTime = carousel.querySelector(timeSelector);
+
+                const timeRunning = 3000; // Time to complete animation
+                const timeAutoNext = 20000; // Time for auto-next slide
+
+                let autoSlideInterval;
+                let animationTimeout;
+
+                // Function to handle the animation and update the carousel
+                function showSlider(type) {
+                    const items = list.querySelectorAll('.item, .item-1, .item-2, .item-3, .item-4, .item-5, .item-6'); // Handles both carousels
+                    if (type === 'next') {
+                        list.appendChild(items[0]);
+                        carousel.classList.add('next');
+                    } else if (type === 'prev') {
+                        list.prepend(items[items.length - 1]);
+                        carousel.classList.add('prev');
+                    }
+
+                    // Clear previous animation classes
+                    clearTimeout(animationTimeout);
+                    animationTimeout = setTimeout(() => {
+                        carousel.classList.remove('next', 'prev');
+                    }, timeRunning);
+
+                    // Reset auto-slide timer
+                    resetAutoSlide();
+                    resetTimeAnimation();
+                }
+
+                // Function to reset progress bar animation
+                function resetTimeAnimation() {
+                    runningTime.style.animation = 'none';
+                    runningTime.offsetHeight; // Trigger reflow
+                    runningTime.style.animation = `runningTime ${timeAutoNext / 1000}s linear infinite`;
+                }
+
+                // Function to reset the auto-slide timer
+                function resetAutoSlide() {
+                    clearInterval(autoSlideInterval);
+                    autoSlideInterval = setInterval(() => {
+                        showSlider('next');
+                    }, timeAutoNext);
+                }
+
+                // Attach event listeners to buttons
+                nextBtn.addEventListener('click', () => showSlider('next'));
+                prevBtn.addEventListener('click', () => showSlider('prev'));
+
+                // Initialize auto-slide and progress bar animation
+                resetAutoSlide();
+                resetTimeAnimation();
+            }
+
+            // Initialize both carousels with respective selectors
+            initCarousel('.carousel', '.list', '.next', '.prev', '.timeRunning'); // First carousel
+            initCarousel('.carousel-1', '.list-1', '.next-1', '.prev-1', '.timeRunning-1');
+            initCarousel('.carousel-2', '.list-2', '.next-2', '.prev-2', '.timeRunning-2');
+            initCarousel('.carousel-3', '.list-3', '.next-3', '.prev-3', '.timeRunning-3');
+            initCarousel('.carousel-4', '.list-4', '.next-4', '.prev-4', '.timeRunning-4');
+            initCarousel('.carousel-5', '.list-5', '.next-5', '.prev-5', '.timeRunning-5');
+            initCarousel('.carousel-6', '.list-6', '.next-6', '.prev-6', '.timeRunning-6');
+        </script>
+    </div>
+</body>
+</html>

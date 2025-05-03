@@ -1,0 +1,134 @@
+<div class="head-menu">
+    <nav class="navbar">
+        <div class="logo"><img src="/website-tour-main/img/Accom/compo/logo.png" alt=""></div>
+    <div class="menu" id="menu">
+      <a href="#about">About us</a>
+      <form class="search-bar" onsubmit="performSearch(event)">
+        <input type="text" placeholder=" Search" id="searchInput" required>
+      </form>
+      <a href=""><img src="/website-tour-main/img/Accom/compo/smallbtn.png" alt=""></a>
+      <a href=""><img src="/website-tour-main/img/Accom/compo/lang.png" alt=""></a>
+    </div>
+    </nav>
+    <h1>Welcome to land of stories <br> Mongolia!</h1>
+    <div class="menu-bar">
+        <a href="#vub">Visit Ulaanbaatar</a>
+        <a href="#dest">Destinations</a>
+        <a href="#accom">Accommodation</a>
+        <a href="#">Tour Operators</a>
+        <a href="#">Events</a>
+        <a href="#">Info</a>
+        <a href="#">Commercial</a>
+    </div>
+</div>
+<!-- CSS -->
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #013B7D;
+    color: #f0f0f0;
+    padding: 10px 20px;
+    height: 60px;
+  }
+  .div {
+    width: 1225px;
+    margin: 0px 348px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    font-size: 1rem;
+    font-family: "SF Pro Display-Medium", Helvetica;
+  }
+  .menu a:first-child {
+    margin-right: 11px;
+  }
+  .menu a:last-child {
+    margin-right: 122px;
+    margin-left: 140px;
+  }
+  .menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .menu a img {
+    height: 38px;
+  }
+  .menu a:hover {
+    background-color: #013b7a;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-left: 10vw;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    width: 470px;
+    margin: auto;
+    height: 44px;
+    margin-right: 300px;
+  }
+
+  .search-bar input[type="text"] {
+    width: 100%;
+    height: 1005;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  .head-menu {
+    height: 410px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    background: url(/website-tour-main/img/Home/image\ 186.png) no-repeat center center/cover;
+    margin-bottom: 150px;
+  }
+  .head-menu h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 88px;
+    margin-left: 348px;
+    line-height: 56px;
+    color: #fff;
+    margin-bottom: 87px;
+  }
+  .menu-bar {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+  }
+  .menu-bar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 132px;
+    width: 242px;
+    color: #000000;
+    background: #fff;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .menu-bar a:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+  }
